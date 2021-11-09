@@ -7,6 +7,7 @@ MNEMONIC=privatekey. not the seedphrase
 MATIC_APP_ID=appid_from_maticvigil
 POLYGONSCAN=apikey_from_polygonscan
 ```
+* Edit the deploy script to pass in your name and ticker
 * Edit the contractUri method in the contract and add your OpenSea collection URI 
 * Edit the mint script and add your token uri
 * Deploy with `npx hardhat run --network matic scripts/deploy.js`
