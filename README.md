@@ -13,7 +13,7 @@ POLYGONSCAN=apikey_from_polygonscan
 * Deploy with `npx hardhat run --network matic scripts/deploy.js`
 * Mint with `npx hardhat run --network matic scripts/mint.js`
 
-Contract code copied from Opensea: https://github.com/ProjectOpenSea/meta-transactions/blob/main/contracts/ERC721MetaTransactionMaticSample.sol
+Contract code inspired from Opensea: https://github.com/ProjectOpenSea/meta-transactions/blob/main/contracts/ERC721MetaTransactionMaticSample.sol
 
 I added the mintItem method, from the old [truffle repo contract](https://github.com/YourNewEmpire/Truffle-Tutorial-ERC721).
 
