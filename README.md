@@ -14,6 +14,7 @@ POLYGONSCAN=apikey_from_polygonscan
 * Mint with `npx hardhat run --network matic scripts/mint.js`
 
 Contract code inspired from Opensea: https://github.com/ProjectOpenSea/meta-transactions/blob/main/contracts/ERC721MetaTransactionMaticSample.sol
+This is for gas-less transactions when transferring assets. Users dont have to pay that extra gas, and get a better experience.
 
 I added the mintItem method, from the old [truffle repo contract](https://github.com/YourNewEmpire/Truffle-Tutorial-ERC721).
 
