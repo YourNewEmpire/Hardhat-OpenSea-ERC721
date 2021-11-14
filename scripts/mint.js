@@ -1,6 +1,6 @@
 const hre = require("hardhat");
 const NUM_ITEMS = 5;
-const OWNER_ADDRESS = "0xdd079a5B0CDa6707960197a6B195a436E3CE7836";
+const OWNER_ADDRESS = "";
 
 async function main() {
 
