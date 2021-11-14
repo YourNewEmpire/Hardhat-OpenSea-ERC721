@@ -9,7 +9,7 @@ POLYGONSCAN=apikey_from_polygonscan
 ```
 * Edit the deploy script to pass in your name and ticker
 * Edit the contractUri method in the contract and add your OpenSea collection URI 
-* Edit the mint script and add your token uri
+* Edit the mint script and add your token uri, contract address and account address of the account you want to mint to.
 * Deploy with `npx hardhat run --network matic scripts/deploy.js`
 * Mint with `npx hardhat run --network matic scripts/mint.js`
 
